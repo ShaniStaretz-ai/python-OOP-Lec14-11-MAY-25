@@ -42,4 +42,5 @@ Class set, get function, class functions
      return f"MobilePhone('{self.brand}','{self.color}',{self.battery}')"
   ```
   * If __str__() is not defined, Python will use __repr__() when printing
-* def __del__(self): function in cases we want to do actions before deleting the object
+* def __del__(self): function in cases we want to do actions before deleting the object,
+  * like destructor
